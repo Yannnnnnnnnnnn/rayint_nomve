@@ -3,10 +3,14 @@ Ray Intersection without MVE Environment
 Notice
 -------------------------------------------------------------------------------
 The copyright is belong to thr original author!
+
+
 This repo is only a demo to show how to use rayint without MVE.
 
 Build & run
 -------------------------------------------------------------------------------
+opencv is needed if you want to run the demo.
+
 ```
 mkdir build
 cd build
@@ -18,7 +22,8 @@ cd apps/raycast
 
 Result
 -------------------------------------------------------------------------------
-
+depth map
+![depth](https://github.com/Yannnnnnnnnnnn/rayint_nomve/blob/cuda/data/depth.png)
 
 -------------------------------------------------------------------------------
 This project offers a header only acceleration structure library including
