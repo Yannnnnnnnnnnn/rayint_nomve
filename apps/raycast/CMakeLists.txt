@@ -1,8 +1,8 @@
-file(GLOB HEADERS "*.h")
-file(GLOB SOURCES "*.cpp")
 
-set(BIN raycast)
+find_package(OpenCV)
 
-add_executable(${BIN} ${SOURCES})
-add_dependencies(${BIN} ext_mve)
-target_link_libraries(${BIN} -lmve -lmve_util ${JPEG_LIBRARIES} ${PNG_LIBRARIES} ${TIFF_LIBRARIES})
+include_directories(${OpenCV_INCLUDE_DIRS})
+
+add_executable(raycast obj_loader.h raycast.cpp)
+
+target_link_libraries(raycast ${OpenCV_LIBS})

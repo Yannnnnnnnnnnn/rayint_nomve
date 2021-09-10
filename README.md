@@ -1,4 +1,25 @@
-Ray Intersection
+Ray Intersection without MVE Environment
+
+Notice
+-------------------------------------------------------------------------------
+The copyright is belong to thr original author!
+This repo is only a demo to show how to use rayint without MVE.
+
+Build & run
+-------------------------------------------------------------------------------
+```
+mkdir build
+cd build
+cmake ..
+make
+cd apps/raycast
+./raycast
+```
+
+Result
+-------------------------------------------------------------------------------
+
+
 -------------------------------------------------------------------------------
 This project offers a header only acceleration structure library including
 implementations for a BVH- and KD-Tree. Applications may include ray
