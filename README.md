@@ -1,8 +1,9 @@
 Ray Intersection without MVE Environment
+-------------------------------------------------------------------------------
 
 Notice
 -------------------------------------------------------------------------------
-The copyright is belong to thr original author!
+The copyright is belong to the original author!
 
 
 This repo is only a demo to show how to use rayint without MVE.
@@ -22,6 +23,10 @@ cd apps/raycast
 
 Result
 -------------------------------------------------------------------------------
+
+sphere obj
+![sphere](https://github.com/Yannnnnnnnnnnn/rayint_nomve/blob/cuda/data/sphere_obj.png)
+
 depth map
 ![depth](https://github.com/Yannnnnnnnnnnn/rayint_nomve/blob/cuda/data/depth.png)
 
